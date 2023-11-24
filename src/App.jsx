@@ -39,7 +39,7 @@ const App = observer(() => {
           </div>
         </div>
       </main>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 });
