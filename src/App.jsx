@@ -7,6 +7,7 @@ import Header from "@/components/header";
 import SiteStatus from "@/components/siteStatus";
 import Footer from "@/components/footer";
 
+//app
 const App = observer(() => {
   const { cache, status } = useStores();
   const [siteData, setSiteData] = useState(null);
